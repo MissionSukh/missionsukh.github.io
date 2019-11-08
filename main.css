@@ -1,0 +1,63 @@
+.title h1 {
+	color : blue;
+}
+
+.title {
+	border: black solid;
+	background-color: yellow
+}
+
+body{
+	color:blue;
+	font-family: 'Amaranth', sans-serif;
+
+}
+
+button {
+	background-color: white;
+	border: blue solid;
+	align-content: center;
+	font-family: 'Amaranth', sans-serif;
+    padding: 15px 32px;
+}
+
+button:hover{
+	background-color: yellow;
+}
+
+.list {
+	align-content: center;
+	border : black solid;
+}
+
+
+.list ul li {
+	display : inline;
+}
+
+#about {
+	border: black solid;
+	display : none;
+	background-color: yellow;
+}
+
+#team {
+	border: black solid;
+	display : none;
+	align-content: center;
+	background-color: yellow;
+}
+
+#product {
+	border: black solid;
+	display : none;
+	align-content: center;
+	background-color: yellow;
+}
+
+#resources {
+	border : black solid;
+	display : none;
+	align-content: center;
+	background-color: yellow;
+}

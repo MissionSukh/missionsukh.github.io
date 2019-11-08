@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mission Sukh</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+	<div class="title">
+		<center> <h1>Mission Sukh</h1> </center>
+	</div>
+	<div class="list">
+		<center>
+		<ul>
+			<li><button id="about_btn" onclick="showAbout()">About</button></li>
+			<li><button id="team_btn" onclick="showTeam()">Team</button></li>
+			<li><button id="product_btn" onclick="showProduct()">Product</button></li>
+			<li><button id="resources_btn" onclick="showResources()">Resources</button></li>
+		</ul>
+	    </center>
+	</div>
+	<div id="about">
+		<center>
+		<h1>ABOUT</h1>
+		<p>Mission Sukh is focused on taclking mental health using AI and other technologies.</p>
+	    </center>
+	</div>
+	<div id="team">
+		<center>
+		<h1>TEAM</h1>
+		<h1>Mission Sukh consists of</h1> 
+			<ul>
+              <li><h2>Amrth Ashok Shenava</h2></li>
+              <li><h2>Ishva Kanani</h2></li>
+              <li><h2>Kalp Champaneri</h2></li>
+              <li><h2>Samantha Thomas</h2></li>
+			</ul>
+	    </center>
+	</div>
+	<div id="product">
+		<center>
+		<h1>PRODUCT</h1>
+		<ul>
+			<center>
+			<li>Google Assistant App</li>
+			<li>Mission Sukh Mobile App(Under Development)</li>
+		    </center>
+		</ul>
+	    </center>
+	</div>
+	<div id="resources">
+		<center>
+		<h1>RESOURCES</h1>
+		<p>We have a few resources lined up for people dealing with Mental Health issues.</p>
+		<h3><a href="https://suicidepreventionlifeline.org/">Suicide Prevention</a></h3>
+		<h3><a href="https://www.cybersmile.org/advice-help/category/who-to-call">Bullying Report System</a></h3>
+		<h3><a href="https://www.toastmasters.org/">Toastmasters International</a></h3>
+		<p>Toastmasters is a perfect way for people to learn more about others and helps them to become a stronger person</p>
+	    </center>
+	</div> 
+    <script type="text/javascript">
+    	function showAbout(){
+    		document.getElementById('about').style.display = "block";
+    		document.getElementById('team').style.display = "none";
+    		document.getElementById('product').style.display = "none";
+    		document.getElementById('resources').style.display = "none";
+    	}
+
+    	function showTeam(){
+    		document.getElementById('team').style.display = "block";
+    		document.getElementById('about').style.display = "none";
+    		document.getElementById('product').style.display = "none";
+    		document.getElementById('resources').style.display = "none";
+    	}
+
+    	function showProduct(){
+    		document.getElementById('product').style.display = "block";
+    		document.getElementById('team').style.display = "none";
+    		document.getElementById('about').style.display = "none";
+    		document.getElementById('resources').style.display = "none";
+    	}
+
+    	function showResources(){
+    		document.getElementById('resources').style.display = "block";
+    		document.getElementById('team').style.display = "none";
+    		document.getElementById('product').style.display = "none";
+    		document.getElementById('about').style.display = "none";
+    	}
+    </script>
+    <script type="text/javascript">
+      /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+      (function(d, m){
+        var kommunicateSettings = {"appId":"3abc331d1891ca8e32d3de36f519a7e90","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  </script>
+</body>
+</html>
