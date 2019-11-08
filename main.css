@@ -1,14 +1,16 @@
 .title h1 {
-	color : blue;
+	color : black;
 }
 
+/*
 .title {
 	border: black solid;
-	background-color: yellow
+	background-color: lightblue;
 }
+*/
 
 body{
-	color:blue;
+	color: black;
 	font-family: 'Amaranth', sans-serif;
 
 }
@@ -28,6 +30,7 @@ button:hover{
 .list {
 	align-content: center;
 	border : black solid;
+	background-color: lightblue;
 }
 
 
